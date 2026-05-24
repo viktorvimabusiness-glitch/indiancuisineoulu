@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "indian-cuisine-oulu/assets"
+public_folder: "/assets"
+
+locale: fi
+
+collections:
+  - name: "sivusto"
+    label: "Sivuston tiedot"
+    files:
+      - label: "Yhteystiedot ja aukioloajat"
+        name: "yhteystiedot"
+        file: "indian-cuisine-oulu/_data/yhteystiedot.json"
+        fields:
+          - { label: "Puhelinnumero", name: "puhelin", widget: "string" }
+          - { label: "Sähköposti", name: "email", widget: "string" }
+          - { label: "Osoite", name: "osoite", widget: "string" }
+          - label: "Aukioloajat"
+            name: "aukioloajat"
+            widget: "list"
+            fields:
+              - { label: "Päivä", name: "paiva", widget: "string" }
+              - { label: "Aika", name: "aika", widget: "string" }
