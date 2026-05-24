@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruokalista — Indian Cuisine Oulu</title>
+  <meta name="description" content="Tandoori-erikoisuudet, biryanit, kasvis- ja vegaaniannokset. Lounas arkisin 14,50 €. Halal-vaihtoehdot saatavilla.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-logo"><img src="assets/logo.png" alt="Indian Cuisine Oulu logo"></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Etusivu</a></li>
+        <li><a href="ruokalista.html">Ruokalista</a></li>
+        <li><a href="tarina.html">Tarinamme</a></li>
+        <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:+358853016400" class="nav-phone">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          08 5301640
+        </a>
+        <a href="yhteystiedot.html#varaa" class="btn btn-primary">Varaa pöytä</a>
+      </div>
+      <button class="hamburger" aria-label="Avaa valikko"><span></span></button>
+    </nav>
+  </header>
+
+  <div class="sidebar-overlay"></div>
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <img src="assets/logo.png" alt="Indian Cuisine Oulu">
+      <button class="sidebar-close" aria-label="Sulje valikko">&times;</button>
+    </div>
+    <ul class="sidebar-links">
+      <li><a href="index.html">Etusivu</a></li>
+      <li><a href="ruokalista.html">Ruokalista</a></li>
+      <li><a href="tarina.html">Tarinamme</a></li>
+      <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+      <li><a href="yhteystiedot.html#catering">Catering & tapahtumat</a></li>
+    </ul>
+    <div class="sidebar-footer">
+      <a href="yhteystiedot.html#varaa" class="btn btn-primary">Varaa pöytä</a>
+      <a href="tel:+358853016400" class="btn btn-outline">Soita 08 5301640</a>
+      <p class="sidebar-contact">Kajaaninkatu 38, 90100 Oulu<br>oulu@indiancuisine.fi</p>
+    </div>
+  </aside>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image: url('assets/food-3.jpg');"></div>
+    <div class="container">
+      <div class="page-hero-content">
+        <span class="eyebrow">Ruokalista</span>
+        <h1>Aitoja makuja, käsintehdyillä mausteilla.</h1>
+        <p>Tandoori-uunista lautaselle. Maustaminen miedoksi tai tuliseksi — pyydä rohkeasti. Hinnat sisältävät arvonlisäveron.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LUNCH -->
+  <section class="menu-section" id="lounas">
+    <div class="container">
+      <div class="menu-section-title">
+        <span class="eyebrow">Arkilounas · Ma–Pe 11–14</span>
+        <h2>Lounas</h2>
+        <p>14,50 € · sis. salaatit, naan, riisi ja kahvi</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Päivän kanavaihtoehto</div>
+            <div class="menu-item-desc">Vaihtuva kana-annos talon mausteilla, basmatiriisi ja tuore naan-leipä.</div>
+            <div class="menu-item-tags"><span class="menu-tag halal">Halal saatavilla</span></div>
+          </div>
+          <div class="menu-item-price">14,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Päivän liha- tai kala-annos</div>
+            <div class="menu-item-desc">Lammas, nauta tai kala kerman ja mausteiden kanssa, riisin ja naanin kera.</div>
+          </div>
+          <div class="menu-item-price">14,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Päivän kasvisvaihtoehto</div>
+            <div class="menu-item-desc">Talon paneer, kasvis-curry tai dal — vaihtuu päivittäin.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span><span class="menu-tag vegan">Vegaani-vaihtoehto</span></div>
+          </div>
+          <div class="menu-item-price">14,50 €</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STARTERS -->
+  <section class="menu-section">
+    <div class="container">
+      <div class="menu-section-title">
+        <span class="eyebrow">Alkupalat</span>
+        <h2>Tandoori-alkupalat & välipalat</h2>
+        <p>tuoreesta tandoori-uunista</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Vegetable Samosa</div>
+            <div class="menu-item-desc">Käsintehdyt, perunalla, herneellä ja mausteilla täytetyt rapeat samosa-leivokset, tamarinikastikkeen kanssa.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">9,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Chicken Tikka</div>
+            <div class="menu-item-desc">Talon mausteilla marinoidut kanapalat tandoori-uunista. Tarjoillaan minttukastikkeen kanssa.</div>
+            <div class="menu-item-tags"><span class="menu-tag spicy">Mauste</span><span class="menu-tag halal">Halal</span></div>
+          </div>
+          <div class="menu-item-price">12,90 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Paneer Tikka</div>
+            <div class="menu-item-desc">Talossa valmistettu paneer marinoituna ja tandoorissa grillattuna paprikan ja sipulin kanssa.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">12,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Onion Bhaji</div>
+            <div class="menu-item-desc">Kikhernejauhotaikinassa rapeiksi paistetut maustetut sipulipalat.</div>
+            <div class="menu-item-tags"><span class="menu-tag vegan">Vegaani</span></div>
+          </div>
+          <div class="menu-item-price">8,90 €</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TANDOORI -->
+  <section class="menu-section">
+    <div class="container">
+      <div class="menu-section-title">
+        <span class="eyebrow">Tandoori</span>
+        <h2>Tandoori-erikoisuudet</h2>
+        <p>Talon kruunut — kotimaisesta kanasta ja lampaasta</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Tandoori Chicken (½)</div>
+            <div class="menu-item-desc">Suomalainen kana marinoituna jogurttiin ja talon salaisiin mausteisiin, kypsennettynä tandoori-uunissa täyteläisen maun saavuttamiseksi.</div>
+            <div class="menu-item-tags"><span class="menu-tag halal">Halal</span></div>
+          </div>
+          <div class="menu-item-price">22,90 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Lamb Seekh Kebab</div>
+            <div class="menu-item-desc">Käsin muotoiltu maustettu lampaanjauheliha tandoorissa grillattuna, sitruunan ja sipulin kanssa.</div>
+            <div class="menu-item-tags"><span class="menu-tag spicy">Mauste</span><span class="menu-tag halal">Halal</span></div>
+          </div>
+          <div class="menu-item-price">24,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Tandoori Mixed Grill</div>
+            <div class="menu-item-desc">Tandoori-kana, tikka, seekh kebab ja paneer — talon paras maistelu yhdellä lautasella.</div>
+          </div>
+          <div class="menu-item-price">28,90 €</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CURRIES -->
+  <section class="menu-section">
+    <div class="container">
+      <div class="menu-section-title">
+        <span class="eyebrow">Pääruoat</span>
+        <h2>Kana, lammas & nauta</h2>
+        <p>Tarjoillaan basmatiriisin tai naanin kera (sis.)</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Butter Chicken</div>
+            <div class="menu-item-desc">Tandoorissa grillattua kanaa kermaisessa tomaattikastikkeessa, voilla, talon garam masalalla.</div>
+            <div class="menu-item-tags"><span class="menu-tag halal">Halal</span></div>
+          </div>
+          <div class="menu-item-price">19,90 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Chicken Tikka Masala</div>
+            <div class="menu-item-desc">Marinoitu kana paksussa, mausteisessa masala-kastikkeessa. Talon klassikko.</div>
+          </div>
+          <div class="menu-item-price">19,90 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Lamb Rogan Josh</div>
+            <div class="menu-item-desc">Hidaspaistettu lampaanliha kashmiri-tyyliin, juurevien mausteiden ja jogurtin kanssa.</div>
+            <div class="menu-item-tags"><span class="menu-tag spicy">Mauste</span><span class="menu-tag halal">Halal</span></div>
+          </div>
+          <div class="menu-item-price">23,90 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Beef Vindaloo</div>
+            <div class="menu-item-desc">Goa-tyylinen tulinen nautakastike kotimaisesta naudasta — viinietikkaa, chiliä, valkosipulia.</div>
+            <div class="menu-item-tags"><span class="menu-tag spicy">Tulinen</span></div>
+          </div>
+          <div class="menu-item-price">22,50 €</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BIRYANI -->
+  <section class="menu-section">
+    <div class="container">
+      <div class="menu-section-title">
+        <span class="eyebrow">Biryanit</span>
+        <h2>Tawa Biryani — Intian katujen tyyliin</h2>
+        <p>Basmatiriisi, sahrami ja mausteinen pohja</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Chicken Tawa Biryani</div>
+            <div class="menu-item-desc">Katukokin tyylinen biryani — kana, sahramiriisi ja talon mausteet. Tarjoillaan jogurtti-raitan kanssa.</div>
+            <div class="menu-item-tags"><span class="menu-tag halal">Halal</span></div>
+          </div>
+          <div class="menu-item-price">21,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Lamb Biryani</div>
+            <div class="menu-item-desc">Pitkään haudutettu lammas yhteen kerrostettuna sahramiriisin ja tuoreiden yrttien kanssa.</div>
+            <div class="menu-item-tags"><span class="menu-tag halal">Halal</span></div>
+          </div>
+          <div class="menu-item-price">23,90 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Vegetable Biryani</div>
+            <div class="menu-item-desc">Kausikasvikset, paneer ja sahramiriisi, kuorrutettuna paahdetuilla cashew-pähkinöillä.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">18,90 €</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VEGETARIAN -->
+  <section class="menu-section">
+    <div class="container">
+      <div class="menu-section-title">
+        <span class="eyebrow">Kasvis & vegaani</span>
+        <h2>Kasvisannokset</h2>
+        <p>Yksi Suomen laajimmista vegaani- ja kasvisvalikoimista</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Palak Paneer</div>
+            <div class="menu-item-desc">Talossa valmistettu paneer kermaisessa pinaattikastikkeessa, valkosipulilla ja mausteilla.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">17,90 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Dal Makhani</div>
+            <div class="menu-item-desc">Mustia linssejä hitaasti haudutettuna voin, kerman ja tomaatin kera. Pohjois-Intian klassikko.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">15,90 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Chana Masala</div>
+            <div class="menu-item-desc">Kikherneitä tomaatti-mauste-kastikkeessa, tuoreilla yrteillä ja sitruunalla.</div>
+            <div class="menu-item-tags"><span class="menu-tag vegan">Vegaani</span></div>
+          </div>
+          <div class="menu-item-price">15,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Vegan Korma</div>
+            <div class="menu-item-desc">Kausikasvikset cashew-kookosmaitokastikkeessa — täyteläinen ja täysin vegaaninen.</div>
+            <div class="menu-item-tags"><span class="menu-tag vegan">Vegaani</span></div>
+          </div>
+          <div class="menu-item-price">17,50 €</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BREADS & SIDES -->
+  <section class="menu-section">
+    <div class="container">
+      <div class="menu-section-title">
+        <span class="eyebrow">Leivät & lisukkeet</span>
+        <h2>Tandoor-leivät</h2>
+        <p>Paistettu tilauksesta</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Plain Naan</div>
+            <div class="menu-item-desc">Pehmeä tandoor-leipä, voilla siveltynä.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">3,90 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Garlic Naan</div>
+            <div class="menu-item-desc">Naan tuoreella valkosipulilla ja korianterilla.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">4,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Peshwari Naan</div>
+            <div class="menu-item-desc">Makea, manteli- ja kookostäytteinen naan.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">5,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Basmati Rice</div>
+            <div class="menu-item-desc">Tuoksuva basmatiriisi.</div>
+            <div class="menu-item-tags"><span class="menu-tag vegan">Vegaani</span></div>
+          </div>
+          <div class="menu-item-price">3,50 €</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DRINKS -->
+  <section class="menu-section" id="juomat">
+    <div class="container">
+      <div class="menu-section-title">
+        <span class="eyebrow">Juomat</span>
+        <h2>Wine bar & talon juomat</h2>
+        <p>Arin valitsemat viinit ja talon klassikot</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">By the Glass — viinit</div>
+            <div class="menu-item-desc">Vaihtuva valikoima puna-, valko- ja kuohuviinejä lasissa. Pyydä kuukauden suositus.</div>
+          </div>
+          <div class="menu-item-price">alk. 8,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Talon Chai</div>
+            <div class="menu-item-desc">Aito masala-chai mausteineen — kardemumma, neilikka, kaneli, inkivääri.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">4,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Mango Lassi</div>
+            <div class="menu-item-desc">Jogurttipohjainen mangojuoma — perinteinen jäähdyte mausteiselle ruoalle.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">5,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Espresso & Cappuccino</div>
+            <div class="menu-item-desc">Talon espressojuomat — aterian jälkeen tai sellaisenaan.</div>
+          </div>
+          <div class="menu-item-price">alk. 3,20 €</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESSERT -->
+  <section class="menu-section">
+    <div class="container">
+      <div class="menu-section-title">
+        <span class="eyebrow">Jälkiruoat</span>
+        <h2>Makea lopetus</h2>
+      </div>
+      <div class="menu-list">
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Gulab Jamun</div>
+            <div class="menu-item-desc">Lämpimät kardemumma-siirapissa kostutetut maitopullat.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">7,50 €</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="menu-item-name">Kulfi</div>
+            <div class="menu-item-desc">Talon intialainen jäätelö pistaaseilla ja kardemummalla.</div>
+            <div class="menu-item-tags"><span class="menu-tag veg">Kasvis</span></div>
+          </div>
+          <div class="menu-item-price">7,90 €</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="menu-cta">
+    <div class="container">
+      <div class="menu-cta-inner">
+        <span class="eyebrow">Huomio</span>
+        <h2 style="font-size: 1.6rem; margin-bottom: 12px;">Ruokalista voi muuttua</h2>
+        <p style="margin-bottom: 24px;">Päivän tarjoukset, sesongin annokset ja juomalista vaihtuvat. Soita 08 5301640 saadaksesi tämän päivän tarkat hinnat ja saatavuuden.</p>
+        <a href="yhteystiedot.html#varaa" class="btn btn-primary">Varaa pöytä</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="Indian Cuisine Oulu">
+          <p>Oulun perinteikkäin intialainen ravintola vuodesta 2007.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Yhteystiedot</h4>
+          <p>Kajaaninkatu 38<br>90100 Oulu</p>
+          <p><a href="tel:+358853016400">08 5301640</a></p>
+          <p><a href="mailto:oulu@indiancuisine.fi">oulu@indiancuisine.fi</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Linkit</h4>
+          <ul>
+            <li><a href="ruokalista.html">Ruokalista</a></li>
+            <li><a href="tarina.html">Tarinamme</a></li>
+            <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+            <li><a href="yhteystiedot.html#catering">Catering</a></li>
+            <li><a href="https://www.instagram.com/ouluindiancuisine/" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Aukioloajat</h4>
+          <ul class="footer-hours">
+            <li><span>Ma–To</span><span>11–22</span></li>
+            <li><span>Pe</span><span>11–23</span></li>
+            <li><span>La</span><span>12–23</span></li>
+            <li><span>Su</span><span>13–21</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Indian Cuisine Oulu.</span>
+        <span>Kajaaninkatu 38, 90100 Oulu</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
